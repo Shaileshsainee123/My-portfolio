@@ -1,27 +1,28 @@
 import Section from "./reuableComponents/Section";
 
 const Services = () => {
-    const services = [
+    const services =[
+        {
+          title: "Web Development",
+          description:
+            "Transform your ideas into fully functional web applications with tailored full-stack solutions. From responsive frontends in React to robust backend APIs with Node.js and MongoDB/MySQL, I bring your projects to life with scalable architecture and seamless user experience.",
+          icon: "🌐",
+        },
         {
             title: "Web Design",
             description:
-                "Ignite your online presence with our expert web design solutions. We blend creativity and strategy to craft visually stunning and user-friendly websites tailored to your brand. Let's bring your vision to life and leave a lasting impression on your audience. Ready to stand out in the digital landscape? Let's collaborate and make it happen.",
-            icon: "💻", // Replace with an actual icon
+              "Make a lasting first impression with clean, user-friendly web designs. I blend modern design principles with responsive layouts to ensure your brand stands out, whether it's a business site, portfolio, or landing page.",
+            icon: "🖥️",
         },
         {
-            title: "Web Development",
-            description:
-                "Take your digital presence to new heights with our professional web development expertise. We specialize in crafting custom websites that not only reflect your brand's identity but also provide an exceptional user experience. Whether you need a sleek corporate site or a robust e-commerce platform, we have the skills and creativity to make it happen.",
-            icon: "👨‍💻", // Replace with an actual icon
+          title: "App Development",
+          description:
+            "Bring your app ideas to life with robust and responsive mobile solutions. Whether it's building Android apps using React Native CLI or syncing real-time data through backend APIs, I create user-focused mobile experiences with modern tech.",
+          icon: "📱",
         },
-        {
-            title: "App Development",
-            description:
-                "Empower your online presence with our specialized WordPress development solutions. From theme customization to plugin integration, we have the expertise to turn your WordPress site into a powerful digital asset. Whether you're a blogger, entrepreneur, or business owner, let's collaborate to create a WordPress website that reflects your unique vision and goals.",
-            icon: "⚙️", // Replace with an actual icon
-        },
-    ];
-
+     
+      ]
+      
     return (
         <section className='max-w-5xl mx-auto p-4' id='service'>
 
