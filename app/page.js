@@ -34,16 +34,18 @@ export default function Home() {
                   <span className="">SHAILESH</span>
                 </h1>
                 <h3 className="text-2xl md:text-3xl mb-10">
-                <Typewriter words={["Front End Dev", "React Developer", "MERN Stack Dev","React Native Dev"]} />
+                  <Typewriter words={["Front End Dev", "React Developer", "MERN Stack Dev", "React Native Dev"]} />
                 </h3>
 
                 <div className="flex flex-col sm:flex-row items-center gap-6">
-                  <Link
-                    href="#"
+                  <a
+                    href="/ShaileshUp.pdf"
+                    download
                     className="rounded-full border-2 border-white text-white px-8 py-3 hover:bg-white hover:text-[#00d2b5] transition-colors"
                   >
                     Download CV
-                  </Link>
+                  </a>
+
                 </div>
               </div>
             </div>
