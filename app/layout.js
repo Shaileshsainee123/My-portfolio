@@ -14,6 +14,14 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Shailesh Sainee | MERN Stack Developer Portfolio",
   description: "I'm Shailesh Sainee, a MERN Stack Developer with experience in React, Node.js, and MongoDB. Explore my portfolio, projects, and skills.",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" }
+    ],
+    apple: "/favicon/apple-touch-icon.png"
+  },
   keywords: [
     "Shailesh Sainee",
     "MERN Stack Developer",
@@ -29,19 +37,12 @@ export const metadata = {
   openGraph: {
     title: "Shailesh Sainee | MERN Stack Developer Portfolio",
     description: "Check out my latest projects, skills, and experience as a full-stack developer.",
-    icons: {
-      icon: [
-        { url: "/favicon.ico" },
-        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }
-      ],
-      apple: "/apple-touch-icon.png"
-    },
     url: "https://saineeshailesh1007.vercel.app/",
     siteName: "Shailesh Sainee Portfolio",
     locale: "en_US",
     type: "website",
   },
+
 };
 
 
