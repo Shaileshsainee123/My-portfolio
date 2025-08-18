@@ -9,11 +9,6 @@ const Footer = () => {
     <div className='flex flex-col items-center gap-4'>
      <div className='flex gap-4 '>
         <div className='bg-white rounded-full p-3 cursor-pointer hover:shadow-lg'>
-          <Link href='https://www.instagram.com/shaileshsainee/' target='_blank'>
-            <Instagram className='transition ease-in-out delay-150 duration-300 hover:scale-110' size={30} color='#00d2b5'/>
-          </Link>
-        </div>
-        <div className='bg-white rounded-full p-3 cursor-pointer hover:shadow-lg'>
           <Link href='https://www.linkedin.com/in/shailesh-sainee-63a7101a3/' target='_blank'>
             <Linkedin className='transition ease-in-out delay-150 duration-300 hover:scale-110' size={30} color='#00d2b5'/>
           </Link>
@@ -21,6 +16,11 @@ const Footer = () => {
         <div className='bg-white rounded-full p-3 cursor-pointer hover:shadow-lg'>
           <Link href='https://github.com/Shaileshsainee123' target='_blank'>
             <Github className='transition ease-in-out delay-150 duration-300 hover:scale-110' size={30} color='#00d2b5'/>
+          </Link>
+        </div>
+        <div className='bg-white rounded-full p-3 cursor-pointer hover:shadow-lg'>
+          <Link href='https://www.instagram.com/shaileshsainee/' target='_blank'>
+            <Instagram className='transition ease-in-out delay-150 duration-300 hover:scale-110' size={30} color='#00d2b5'/>
           </Link>
         </div>
      </div>

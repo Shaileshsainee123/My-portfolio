@@ -44,7 +44,7 @@ const educations = [
     {
         id: 1,
         degree: "Mern Stack Developer",
-        institution: "DeenBytes pvt. ltd.",
+        institution: "The Third Eye Production Pvt. Ltd.",
         location: "Noida, Uttar Pradesh",
         startYear: "Oct-2024",
         endYear: "Present",        
