@@ -36,6 +36,9 @@ export const metadata = {
   openGraph: {
     title: "Shailesh Sainee | MERN Stack Developer Portfolio",
     description: "Check out my latest projects, skills, and experience as a full-stack developer.",
+    verification: {
+      google: "f8DG0hSmxg-b5YQngZZ5HZ5_u5wSnz3J3GPEsqWzCWc",
+    },
     url: "https://saineeshailesh1007.vercel.app/",
     siteName: "Shailesh Sainee Portfolio",
     locale: "en_US",
