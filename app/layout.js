@@ -14,14 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Shailesh Sainee | MERN Stack Developer Portfolio",
   description: "I'm Shailesh Sainee, a MERN Stack Developer with experience in React, Node.js, and MongoDB. Explore my portfolio, projects, and skills.",
-  icons: {
-    icon: [
-      { url: "/favicon/favicon.ico" },
-      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" }
-    ],
-    apple: "/favicon/apple-touch-icon.png"
-  },
   keywords: [
     "Shailesh Sainee",
     "MERN Stack Developer",
@@ -34,6 +26,13 @@ export const metadata = {
   ],
   authors: [{ name: "Shailesh Sainee" }],
   creator: "Shailesh Sainee",
+
+  // ✅ New Added
+  robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://saineeshailesh1007.vercel.app/",
+  },
+
   openGraph: {
     title: "Shailesh Sainee | MERN Stack Developer Portfolio",
     description: "Check out my latest projects, skills, and experience as a full-stack developer.",
@@ -41,9 +40,27 @@ export const metadata = {
     siteName: "Shailesh Sainee Portfolio",
     locale: "en_US",
     type: "website",
+    images: ["/favicon/apple-touch-icon.png"],
   },
 
+  twitter: {
+    card: "summary_large_image",
+    title: "Shailesh Sainee | MERN Stack Developer Portfolio",
+    description: "I'm Shailesh Sainee, a MERN Stack Developer. Explore my projects, skills, and experience.",
+    creator: "@shailesh", // optional
+    images: ["/favicon/apple-touch-icon.png"],
+  },
+
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" }
+    ],
+    apple: "/favicon/apple-touch-icon.png"
+  },
 };
+
 
 
 export default function RootLayout({ children }) {
